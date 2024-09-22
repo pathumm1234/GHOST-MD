@@ -4,7 +4,7 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "🪰",
+    react: "📃",
     filename: __filename
 },
 
@@ -14,10 +14,10 @@ try{
 let dec = `
 
 ╭─────────────━┈⊷
-│👾 ʙᴏᴛ ɴᴀᴍᴇ: ɢʜᴏꜱᴛ-ᴍᴅ
-│👨‍💻 ᴏᴡɴᴇʀ : ɢʜᴏꜱᴛ  
-│👤 ɴᴜᴍʙᴇʀ: 94704227534
-│💻 HOSTER: ɢʜᴏꜱᴛ-ᴛᴇᴀᴍ
+│👾 ʙᴏᴛ ɴᴀᴍᴇ: ᴅᴀʀᴋ-ꜱʜᴀᴅᴏᴡ-ᴍᴅ
+│👨‍💻 ᴏᴡɴᴇʀ : ᴘᴀᴛʜᴜᴍ ᴍᴀʟꜱᴀʀᴀ  
+│👤 ɴᴜᴍʙᴇʀ: 94773416478
+│💻 HOSTER: ᴅᴀʀᴋ-ꜱʜᴀᴅᴏᴡ
 │💫 ᴘʀᴇғɪx: [Multi-Prefix]
 ╰─────────────━┈⊷ 
 ╭━❮ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁 ❯━╮
@@ -58,7 +58,7 @@ let dec = `
 |✰ .𝚁𝚎𝚙𝚘
 ╰━━━━━━━━━━━━━━━⪼
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-ꜱʜᴀᴅᴏᴡ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
 
