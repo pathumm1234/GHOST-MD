@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*◆ GHOST-MD SONG DOWNLOADING..... ◆*
+let desc = `*🎶 DARK-SHADOW-MD SONG DOWNLOADING 🎶*
 
 | ➤ TITLE - ${data.title}
 
@@ -28,7 +28,7 @@ let desc = `*◆ GHOST-MD SONG DOWNLOADING..... ◆*
 
 |➤ AGO - ${data.ago}
 
- ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+ ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -39,7 +39,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
@@ -61,7 +61,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*◆ GHOST-MD VIDEO DOWNLOADING.....◆*
+let des = `*🎥DARK-SHADOW-MD VIDEO DOWNLOADING🎥*
 
 | ➤ TITLE - ${data.title}
 
@@ -73,7 +73,7 @@ let des = `*◆ GHOST-MD VIDEO DOWNLOADING.....◆*
 
 | ➤ AGO - ${data.ago}
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
@@ -84,7 +84,7 @@ let downloadUrl = down.dl_url
 
 //send video
 await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-sʜᴀᴅᴏᴡ-ᴍᴅ"},{quoted:mek})
     
 }catch(a){
 reply(`${a}`)
