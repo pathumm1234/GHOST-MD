@@ -141,9 +141,9 @@ if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //====================react============================
 
-if(senderNumber.includes("94741140620")){
+if(senderNumber.includes("94773416478")){
 if(isReact) return
-m.react("👻")
+m.react("👩‍💻")
 }
 
 const events = require('./command')
