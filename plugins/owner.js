@@ -11,16 +11,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👾 GHOST-MD Whatsapp Bot*
+let dec = `*🎉DARK-SHADOW-MD WHATSAPP BOT*
 
-*| ᴏᴡɴᴇʀ ɴᴀᴍᴇ*: ᴄʏʙᴇʀ ɢʜᴏꜱᴛ ( ɢʜᴏꜱᴛ-ᴍᴅ )
-*| ɴᴜᴍʙᴇʀ*: 94704227534
-*| ʏᴏᴜᴛᴜʙᴇ*: https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M
-*| ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*: https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O
+*| ᴏᴡɴᴇʀ ɴᴀᴍᴇ*: ᴘᴀᴛʜᴜᴍ-ᴍᴀʟꜱᴀʀᴀ
+*| ɴᴜᴍʙᴇʀ*: 94773416478
+*| ʏᴏᴜᴛᴜʙᴇ*: https://youtube.com/@dark_shadow-bot?si=63aH4ud-TXRmyQy5
+*| ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*: https://whatsapp.com/channel/0029VacTVYIGOj9kr0GJzR1r
 
-©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
+©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ-ꜱʜᴀᴅᴏᴡ-ᴍᴅ
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/397000a07a1deb7fad9c2.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
