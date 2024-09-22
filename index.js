@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `DARK-SHADOW-MD connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `*SUCCESSFUL CONNECT DARK SHADOW-MD✅*\n\nThis is Your Log Number and This Message is Come After Successfully Conneceted Bot\n\n*JOIN SUPPORT CHANNEL* : https://whatsapp.com/channel/0029VacTVYIGOj9kr0GJzR1r\n\n*🧑‍💻 𝗙𝗥𝗢𝗠 𝗠𝗥 𝗗𝗔𝗥𝗞 𝗦𝗛𝗔𝗗𝗢𝗪 :* ```Happy New Year For You Dark Shadow Bot Family Member 💗🎉✨️```\n\n© D A R K - S H A D O W`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/1ece2e0281513c05d20ee.jpg` }, caption: up })
 
