@@ -20,7 +20,7 @@ let dec = `*Dark Shadow MD Repastitory Information*
 
 
 *📡 REPO LINK*
-🔗◦https://github.com/dark_shadow-LK/DARK-SHADOW-V1
+🔗◦https://github.com/dark-shadow-LK/DARK-SHADOW-MD-V1/tree/main
 
 *📌 SUBSCRIBE MY YOUTUBE CHANNEL*
 🔗◦ https://youtube.com/@dark_shadow-bot?si=63aH4ud-TXRmyQy5
