@@ -16,7 +16,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*🎶 DARK-SHADOW-MD SONG DOWNLOADING 🎶*
+let desc = `*🎶 DARK-SHADOW-MD SONG DOWNLOADER🎶*
 
 | ➤ TITLE - ${data.title}
 
@@ -61,7 +61,7 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*🎥DARK-SHADOW-MD VIDEO DOWNLOADING🎥*
+let des = `*🎥DARK-SHADOW-MD VIDEO DOWNLOADER🎥*
 
 | ➤ TITLE - ${data.title}
 
